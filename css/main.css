@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {font-size:14px; font-family: Helvetica,Arial,sans-serif; }
+
+#homecontent {margin-top:40px;}
+
+#my_photos { display:none; }
+
+#search-q { padding-left:42px; }
+#searchform { margin-left: 7px; margin-top:-12px; padding:0px; width:95%; }
+#searchform input[type=submit]{display:none;}   /* what is this ?? */
+#searchbox { float:left; clear:left; width:100%; height:40px; background-color:#DDDDDD; border-bottom: 1px solid #BDBDBD; }
+#search-hold {position:relative; }
+#search-mag {position:absolute; top:4px; left:5px;   }
+#search_notfound {margin-top:5px; margin-left:15px; }
+
+.thumbs {padding:2px; width:75px;}
+
+.ui-li {border-width: 0; }
+.ui-bar-b {background-color:#FC6; }
+.ui-header { height:40px; border-bottom-width: 0; border-top: 1px solid #BDBDBD; }
+.ui-header .ui-btn-left, .ui-header .ui-btn-right, .ui-footer .ui-btn-left, .ui-footer .ui-btn-right {
+    position: absolute; top: 5px; }
+.ui-field-contain, fieldset.ui-field-contain { border-width:0; padding: 0.2em 0;}
+.ui-btn-up-c {border:0;}
+
